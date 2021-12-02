@@ -1,0 +1,6 @@
+header {
+    text-align: center;
+    background-color: darkslateblue;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
