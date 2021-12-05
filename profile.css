@@ -1,6 +1,70 @@
+/* Header color prussian blue, centered text, attempted to take up the whole top of page */
 header {
     text-align: center;
-    background-color: darkslateblue;
+    height: 200px;
+    margin-top: 0px;
+    background-color: #253D5B;
     color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*header font size keeping it different from the Software Developer title underneath it */
+h1 {
+    font-size: 80px;
+}
+
+/* The following few segments are dedicated to the nav bar. Lighter background than header, pink buttons (I want to add some space between buttons in the future. */
+nav {
+    background-color: #969696;
+}
+
+.btn {
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: #C6878F;
+}
+
+/* Imported photo needed to be smaller to fit the page */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Added a wrapper to all articles to keep text in line with the photo */
+.wrapper {
+    width: 800px;
+    margin: auto;
+}
+
+/* centered all text in the body and added a background color and font styling */
+body {
+    text-align: center;
+    background-color: #B79D94;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+/* made the listed info easier to read by creating its own group and formatting to the left */
+.list {
+    text-align: left;
+    margin: auto;
+}
+
+/* footer color and height */
+footer {
+    background-color: #67697C;
+    height: 50px;
+}
+
+/* made the contact section stand out with a pink backgrouns */
+.contact-info {
+    background-color: #C6878F;
+    text-align: left;
 }
