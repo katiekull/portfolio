@@ -68,3 +68,22 @@ footer {
     background-color: #C6878F;
     text-align: left;
 }
+
+/* stylized links */
+a {
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  a:active {
+    background-color: black;
+  }
+  
+  a:visited {
+    background-color: #ccc;
+  }
